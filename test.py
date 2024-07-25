@@ -23,3 +23,5 @@ def receive_string():
 # 0.0.0.0 으로 모든 IP에 대한 연결을 허용해놓고 포트는 8082로 설정
 if __name__ == '__main__':
     app.run('0.0.0.0', port=8082, debug=True)
+    
+    
